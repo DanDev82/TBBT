@@ -1,0 +1,113 @@
+
+.header #logo {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font: 0/0 serif;
+    text-shadow: none;
+    color: transparent;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url('../img/header.jpg');
+}
+.header #logo .inner {
+    padding-top: 63.35%;
+    display: block;
+    height: 0;
+}
+
+.thumbnail {
+	box-shadow: 1px 1px 1px #ffebee;
+}
+
+footer {
+	padding: 0 20px 20px 20px;
+}
+
+footer h4 {
+	padding-top: 12px;
+}
+
+footer p {
+	font-size: 1.125em;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #e0e0e0;
+}
+
+footer a:visited {
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+ul li a:hover {
+	font-size: 1.1em;
+	color: white;
+	text-decoration: none;
+}
+
+
+.btn {
+	color: white;
+}
+.btn:hover {
+	color: #e0e0e0;
+}
+.btn:visited {
+	color: white;	
+}
+
+hr {
+	width: 200px;
+	height: 2px;
+	border: 0;
+	border-bottom: 3px solid #e57373;
+	margin: 40px auto;
+	padding: 0;
+}
+
+.right {
+	float: right;
+}
+
+.slider {
+	width: 100%;
+}
+
+.education a:hover {
+	color: white;
+	font-size: 1.1em;
+}
+
+
+/*SLICK*/
+
+
+.slick-dots li button:before {
+	font-size: 2.5rem;
+}
+
+@media (max-width: 1000px) {
+	footer h3,
+	footer h4,
+	footer p {
+		text-align: center;
+	}
+	.education {
+		text-align: center;
+	}
+}
